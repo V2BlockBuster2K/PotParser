@@ -75,4 +75,4 @@ I welcome contributions of any kind, including bug fixes, new features, and docu
 
 ## License
 
-[GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt)
