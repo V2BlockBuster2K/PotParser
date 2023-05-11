@@ -1,6 +1,6 @@
 # PotParser 🥦 - a strain webscraper
 
-PotParser is a Python library that allows you to extract information about strains of marijuana from various online sources. It can retrieve data such as the strain's name, genetics, effects, and medical uses. PotParser also provides a mg calculator where you can enter percentage of your bud and the amount you plan to consume.
+PotParser is a Python Cli tool that allows you to extract information about strains of marijuana from various online sources. It can retrieve data such as the strain's name, genetics, effects, and medical uses. PotParser also provides a mg calculator where you can enter percentage of your bud and the amount you plan to consume.
 
 ## Requirements
 
