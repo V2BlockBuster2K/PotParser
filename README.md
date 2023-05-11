@@ -4,7 +4,7 @@ PotParser is a Python Cli tool that allows you to extract information about stra
 
 ## Demo
 
-![](./assets/potparser.gif)
+![](./.github/assets/potparser.gif)
 
 ## Requirements
 
