@@ -3,9 +3,9 @@ from __future__ import print_function
 import asyncio
 import sys
 
+from ..helpers import create_url_ending_name
 from ..utils.create_table import create_strain_info_table
 from ..utils.help_printer import print_help
-from ..helpers.url_formatter import create_url_ending_name
 from ..webscrapers.strain_scraper import scrape_strain_info
 
 

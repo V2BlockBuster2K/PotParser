@@ -2,10 +2,9 @@ from __future__ import print_function
 
 import sys
 
+from ..helpers import fix_float, is_float, mg_calculator
 from ..utils.create_table import create_mg_info_table
 from ..utils.help_printer import print_help
-from ..helpers.float_helpers import fix_float, is_float
-from ..helpers.mg_calculator import mg_calculator
 
 
 def percentage_menu() -> None:

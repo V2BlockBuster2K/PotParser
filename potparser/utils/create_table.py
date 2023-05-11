@@ -1,5 +1,5 @@
 from tabulate import tabulate
-from ..helpers.mg_calculator import mg_calculator
+from ..helpers import mg_calculator
 
 def create_strain_info_table(strain_name: str, strain_scraper_result) -> str:
     """
