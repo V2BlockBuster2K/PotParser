@@ -11,20 +11,20 @@ This Project is compatible with Linux, Windows and OSX, it requires Pyhton3.9 or
 After you installed Python, clone this repository and cd into it:
 
 ```bash
-  git clone https://github.com/V2BlockBuster2K/PotParser.git
-  cd PotParser
+git clone https://github.com/V2BlockBuster2K/PotParser.git
+cd PotParser
 ```
 
 Then use pip to install:
 
 ```bash
-    pip install .
+pip install .
 ```
 
 If you want to do all of this at once, we can chain the commands like so:
 
 ```bash
-    git clone https://github.com/V2BlockBuster2K/PotParser.git && cd PotParser && pip install .
+git clone https://github.com/V2BlockBuster2K/PotParser.git && cd PotParser && pip install .
 ```
 
 ## Usage
@@ -40,21 +40,21 @@ $ potparser
 If you wan't the docker container then clone this repository and cd into it:
 
 ```bash
-  git clone https://github.com/V2BlockBuster2K/PotParser.git
-  cd PotParser
+git clone https://github.com/V2BlockBuster2K/PotParser.git
+cd PotParser
 ```
 
 Then build the docker container and run it using:
 
 ```bash
-   docker buildx build -t potparser .
-   docker run -it potparser
+docker buildx build -t potparser .
+docker run -it potparser
 ```
 
 If you want to do all of this at once, we can chain the commands like so:
 
 ```bash
-    git clone https://github.com/V2BlockBuster2K/PotParser.git && cd PotParser && docker buildx build -t potparser . && docker run -it potparser
+git clone https://github.com/V2BlockBuster2K/PotParser.git && cd PotParser && docker buildx build -t potparser . && docker run -it potparser
 ```
 
 ## Contributing
