@@ -48,7 +48,7 @@ parser = PotParser()
 strain = parser.get_strain("Blue Dream")
 ```
 
-This will output a List containing three Dicts containing the information about the Blue Dream strain from different websites.
+This will output a List containing three Dicts, which hold the information about the Blue Dream strain from different websites.
 
 ## Docker
 
