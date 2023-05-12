@@ -10,7 +10,7 @@ This is a Python package that allows you to scrape information about cannabis st
 
 This Project is compatible with Linux, Windows and OSX, it requires Python 3.9 or newer in order to run!
 
-It uses several external libraries to provide its functionality which are all automatically installed during the Installation. These libraries are:
+It uses several external libraries to provide its functionality which are all automatically installed during the installation. These libraries are:
 
 - lxml: This library is used to parse HTML and XML documents, providing an efficient way to extract information from web pages. It is used in PotParser's webscrapers module to extract data from cannabis strain websites.
 
