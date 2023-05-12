@@ -1,6 +1,6 @@
 # PotParser 🥦 - a strain webscraper
 
-PotParser is a Python Cli tool that allows you to extract information about strains of marijuana from various online sources. It can retrieve data such as the strain's name, genetics, effects, and medical uses. PotParser also provides a mg calculator where you can enter percentage of your bud and the amount you plan to consume.
+This is a Python package that allows you to scrape information about cannabis strains and calculate the amount of THC or CBD in a given amount of cannabis flower. It includes a command-line interface and various utilities for displaying and formatting the results.
 
 ## Demo
 
@@ -8,7 +8,7 @@ PotParser is a Python Cli tool that allows you to extract information about stra
 
 ## Requirements
 
-This Project is compatible with Linux, Windows and OSX, it requires Pyhton3.9 or newer in order to run!
+This Project is compatible with Linux, Windows and OSX, it requires Python 3.9 or newer in order to run!
 
 ## Installation
 
@@ -86,4 +86,4 @@ I welcome contributions of any kind, including bug fixes, new features, and docu
 
 ## License
 
-[GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt)
+This project is licensed under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt). See the 'LICENSE' file for details.
