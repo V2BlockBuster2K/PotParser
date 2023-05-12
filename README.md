@@ -10,6 +10,20 @@ This is a Python package that allows you to scrape information about cannabis st
 
 This Project is compatible with Linux, Windows and OSX, it requires Python 3.9 or newer in order to run!
 
+It uses several external libraries to provide its functionality which are all automatically installed during the Installation. These libraries are:
+
+- lxml: This library is used to parse HTML and XML documents, providing an efficient way to extract information from web pages. It is used in PotParser's webscrapers module to extract data from cannabis strain websites.
+
+- requests: This library is used to send HTTP requests and handle responses. It is used in PotParser's webscrapers module to download web pages.
+
+- tabulate: This library is used to generate formatted tables from data in Python. It is used in PotParser's utils module to display the results of strain calculations.
+
+- aiohttp: This library is used to make asynchronous HTTP requests, allowing PotParser to perform multiple requests simultaneously without blocking. It is used in PotParser's webscrapers module.
+
+- asyncio: This library provides infrastructure for writing asynchronous code using coroutines, allowing PotParser to make efficient use of system resources and respond to events as they occur.
+
+Together, these libraries enable PotParser to efficiently scrape information from cannabis strain websites, perform strain calculations, and display results in a clear and organized way.
+
 ## Installation
 
 After you installed Python, clone this repository and cd into it:
