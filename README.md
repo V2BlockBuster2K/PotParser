@@ -33,11 +33,22 @@ git clone https://github.com/V2BlockBuster2K/PotParser.git && cd PotParser && pi
 
 ## Usage
 
-Here's an example of how to use PotParser:
+Here's an example of how to use PotParser in Terminal:
 
 ```bash
 $ potparser
 ```
+
+Or in a .py file as module:
+
+```bash
+from potparser import PotParser
+
+parser = PotParser()
+strain = parser.get_strain("Blue Dream")
+```
+
+This will output a List containing three Dicts containing the information about the Blue Dream strain from different websites.
 
 ## Docker
 

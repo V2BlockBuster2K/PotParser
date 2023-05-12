@@ -3,8 +3,7 @@ from __future__ import print_function
 import sys
 
 from ..helpers import fix_float, is_float, mg_calculator
-from ..utils.create_table import create_mg_info_table
-from ..utils.help_printer import print_help
+from ..utils import create_mg_info_table, print_help
 
 
 def percentage_menu() -> None:

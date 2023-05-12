@@ -1,7 +1,9 @@
 from tabulate import tabulate
+
 from ..helpers import mg_calculator
 
-def create_strain_info_table(strain_name: str, strain_scraper_result) -> str:
+
+def create_strain_info_table(strain_scraper_result, strain_name: str = "") -> str:
     """
     Given a strain name and its web scraper results, create a table with the following headers:
     - Strain Name (formatted with titlecase and spaces instead of dashes)

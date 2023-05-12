@@ -1,26 +1,24 @@
 from __future__ import print_function
 
-import asyncio
 import sys
 
-from .utils.help_printer import print_help
+from .utils import print_help
 from .views.percentage_menu import percentage_menu
 from .views.strain_menu import strain_menu
 
 
-def handle_user_input(choice: str, loop: asyncio.AbstractEventLoop) -> bool:
+def handle_user_input(choice: str) -> bool:
     """
     Handles the user's input and executes the corresponding functionality based on the choice.
 
     Args:
         choice (str): The user's input.
-        loop (asyncio.AbstractEventLoop): An event loop for running the scraper.
 
     Returns:
         bool: True if the user input was valid and the corresponding functionality executed; False otherwise.
     """
     if choice.strip() == "1":
-        strain_menu(loop)
+        strain_menu()
     elif choice.strip() == "2":
         percentage_menu()
     elif choice.lower().strip() == 'help':
@@ -45,12 +43,11 @@ def main_menu() -> None:
     Returns:
         None
     """
-    loop = asyncio.new_event_loop()
     while True:
         print("[1] Fetch strain percentage\n[2] Calculate mg based on percentage")
         choice = input("Enter your choice (1-2): ")
         if choice.isdigit() and int(choice) <= 2:
-            back_to_menu = handle_user_input(choice, loop)
+            back_to_menu = handle_user_input(choice)
             if not back_to_menu:
                 continue
         elif choice.lower().strip() == 'help':
